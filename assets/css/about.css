@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 
@@ -20,16 +19,16 @@ a {
     color: inherit;
 }
 
-    a:before {
-        -moz-transition: color 0.2s ease, text-shadow 0.2s ease;
-        -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
-        -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
-        transition: color 0.2s ease, text-shadow 0.2s ease;
-    }
+a:before {
+    -moz-transition: color 0.2s ease, text-shadow 0.2s ease;
+    -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
+    -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
 
-    a:hover {
-        color: #ff7496;
-    }
+a:hover {
+    color: #ff7496;
+}
 
 strong, b {
     color: #313f47;
